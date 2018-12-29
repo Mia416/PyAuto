@@ -1,0 +1,82 @@
+DEBUG  2018-12-24 16:50:52,797  POST http://127.0.0.1:51560/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG  2018-12-24 16:50:52,798  Starting new HTTP connection (1): 127.0.0.1:51560
+DEBUG  2018-12-24 16:50:55,817  http://127.0.0.1:51560 "POST /session HTTP/1.1" 200 899
+DEBUG  2018-12-24 16:50:55,818  Finished Request
+DEBUG  2018-12-24 16:50:55,818  POST http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0/url {"url": "https://github.com/login", "sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:03,148  http://127.0.0.1:51560 "POST /session/feaa6066ec3cbdcbb2bbdae35c81f2f0/url HTTP/1.1" 200 72
+DEBUG  2018-12-24 16:51:03,149  Finished Request
+DEBUG  2018-12-24 16:51:03,149  POST http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element {"using": "id", "value": "login_field", "sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:03,181  http://127.0.0.1:51560 "POST /session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element HTTP/1.1" 200 104
+DEBUG  2018-12-24 16:51:03,182  Finished Request
+DEBUG  2018-12-24 16:51:03,182  POST http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element {"using": "id", "value": "login_field", "sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:03,194  http://127.0.0.1:51560 "POST /session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element HTTP/1.1" 200 104
+DEBUG  2018-12-24 16:51:03,194  Finished Request
+DEBUG  2018-12-24 16:51:03,195  POST http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element/0.013450841053157081-1/value {"text": "Mia416", "value": ["M", "i", "a", "4", "1", "6"], "id": "0.013450841053157081-1", "sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:03,283  http://127.0.0.1:51560 "POST /session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element/0.013450841053157081-1/value HTTP/1.1" 200 72
+DEBUG  2018-12-24 16:51:03,284  Finished Request
+DEBUG  2018-12-24 16:51:03,285  POST http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element {"using": "id", "value": "password", "sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:03,311  http://127.0.0.1:51560 "POST /session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element HTTP/1.1" 200 104
+DEBUG  2018-12-24 16:51:03,312  Finished Request
+DEBUG  2018-12-24 16:51:03,312  POST http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element {"using": "id", "value": "password", "sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:03,342  http://127.0.0.1:51560 "POST /session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element HTTP/1.1" 200 104
+DEBUG  2018-12-24 16:51:03,342  Finished Request
+DEBUG  2018-12-24 16:51:03,342  POST http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element/0.013450841053157081-2/value {"text": "820311!xiyu", "value": ["8", "2", "0", "3", "1", "1", "!", "x", "i", "y", "u"], "id": "0.013450841053157081-2", "sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:03,468  http://127.0.0.1:51560 "POST /session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element/0.013450841053157081-2/value HTTP/1.1" 200 72
+DEBUG  2018-12-24 16:51:03,469  Finished Request
+DEBUG  2018-12-24 16:51:03,469  POST http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element {"using": "name", "value": "commit", "sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:03,496  http://127.0.0.1:51560 "POST /session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element HTTP/1.1" 200 104
+DEBUG  2018-12-24 16:51:03,497  Finished Request
+DEBUG  2018-12-24 16:51:03,498  POST http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element {"using": "name", "value": "commit", "sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:03,540  http://127.0.0.1:51560 "POST /session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element HTTP/1.1" 200 104
+DEBUG  2018-12-24 16:51:03,541  Finished Request
+DEBUG  2018-12-24 16:51:03,541  POST http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element/0.013450841053157081-3/click {"id": "0.013450841053157081-3", "sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:05,464  http://127.0.0.1:51560 "POST /session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element/0.013450841053157081-3/click HTTP/1.1" 200 72
+DEBUG  2018-12-24 16:51:05,465  Finished Request
+DEBUG  2018-12-24 16:51:05,466  POST http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element {"using": "css selector", "value": "span[title='SAutoTest']", "sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:05,496  http://127.0.0.1:51560 "POST /session/feaa6066ec3cbdcbb2bbdae35c81f2f0/element HTTP/1.1" 200 102
+DEBUG  2018-12-24 16:51:05,498  Finished Request
+INFO  2018-12-24 16:51:05,498  log in well
+DEBUG  2018-12-24 16:51:05,498  DELETE http://127.0.0.1:51560/session/feaa6066ec3cbdcbb2bbdae35c81f2f0 {"sessionId": "feaa6066ec3cbdcbb2bbdae35c81f2f0"}
+DEBUG  2018-12-24 16:51:05,880  http://127.0.0.1:51560 "DELETE /session/feaa6066ec3cbdcbb2bbdae35c81f2f0 HTTP/1.1" 200 72
+DEBUG  2018-12-24 16:51:05,881  Finished Request
+DEBUG  2018-12-28 10:20:44,196  POST http://127.0.0.1:53017/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG  2018-12-28 10:20:44,197  Starting new HTTP connection (1): 127.0.0.1:53017
+DEBUG  2018-12-28 10:20:47,044  http://127.0.0.1:53017 "POST /session HTTP/1.1" 200 900
+DEBUG  2018-12-28 10:20:47,045  Finished Request
+DEBUG  2018-12-28 10:20:47,045  POST http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d/url {"url": "https://github.com/login", "sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:56,705  http://127.0.0.1:53017 "POST /session/1f468d9d8155c44487f156f8108b962d/url HTTP/1.1" 200 72
+DEBUG  2018-12-28 10:20:56,705  Finished Request
+DEBUG  2018-12-28 10:20:56,706  POST http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d/element {"using": "id", "value": "login_field", "sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:56,744  http://127.0.0.1:53017 "POST /session/1f468d9d8155c44487f156f8108b962d/element HTTP/1.1" 200 103
+DEBUG  2018-12-28 10:20:56,744  Finished Request
+DEBUG  2018-12-28 10:20:56,744  POST http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d/element {"using": "id", "value": "login_field", "sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:56,755  http://127.0.0.1:53017 "POST /session/1f468d9d8155c44487f156f8108b962d/element HTTP/1.1" 200 103
+DEBUG  2018-12-28 10:20:56,756  Finished Request
+DEBUG  2018-12-28 10:20:56,756  POST http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d/element/0.21038459939535104-1/value {"text": "Mia416", "value": ["M", "i", "a", "4", "1", "6"], "id": "0.21038459939535104-1", "sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:56,853  http://127.0.0.1:53017 "POST /session/1f468d9d8155c44487f156f8108b962d/element/0.21038459939535104-1/value HTTP/1.1" 200 72
+DEBUG  2018-12-28 10:20:56,853  Finished Request
+DEBUG  2018-12-28 10:20:56,853  POST http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d/element {"using": "id", "value": "password", "sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:56,877  http://127.0.0.1:53017 "POST /session/1f468d9d8155c44487f156f8108b962d/element HTTP/1.1" 200 103
+DEBUG  2018-12-28 10:20:56,877  Finished Request
+DEBUG  2018-12-28 10:20:56,878  POST http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d/element {"using": "id", "value": "password", "sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:56,889  http://127.0.0.1:53017 "POST /session/1f468d9d8155c44487f156f8108b962d/element HTTP/1.1" 200 103
+DEBUG  2018-12-28 10:20:56,890  Finished Request
+DEBUG  2018-12-28 10:20:56,890  POST http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d/element/0.21038459939535104-2/value {"text": "820311!xiyu", "value": ["8", "2", "0", "3", "1", "1", "!", "x", "i", "y", "u"], "id": "0.21038459939535104-2", "sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:57,015  http://127.0.0.1:53017 "POST /session/1f468d9d8155c44487f156f8108b962d/element/0.21038459939535104-2/value HTTP/1.1" 200 72
+DEBUG  2018-12-28 10:20:57,016  Finished Request
+DEBUG  2018-12-28 10:20:57,017  POST http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d/element {"using": "name", "value": "commit", "sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:57,039  http://127.0.0.1:53017 "POST /session/1f468d9d8155c44487f156f8108b962d/element HTTP/1.1" 200 103
+DEBUG  2018-12-28 10:20:57,039  Finished Request
+DEBUG  2018-12-28 10:20:57,040  POST http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d/element {"using": "name", "value": "commit", "sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:57,051  http://127.0.0.1:53017 "POST /session/1f468d9d8155c44487f156f8108b962d/element HTTP/1.1" 200 103
+DEBUG  2018-12-28 10:20:57,052  Finished Request
+DEBUG  2018-12-28 10:20:57,052  POST http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d/element/0.21038459939535104-3/click {"id": "0.21038459939535104-3", "sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:58,912  http://127.0.0.1:53017 "POST /session/1f468d9d8155c44487f156f8108b962d/element/0.21038459939535104-3/click HTTP/1.1" 200 72
+DEBUG  2018-12-28 10:20:58,912  Finished Request
+DEBUG  2018-12-28 10:20:58,912  POST http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d/element {"using": "css selector", "value": "span[title='SAutoTest']", "sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:58,953  http://127.0.0.1:53017 "POST /session/1f468d9d8155c44487f156f8108b962d/element HTTP/1.1" 200 102
+DEBUG  2018-12-28 10:20:58,954  Finished Request
+INFO  2018-12-28 10:20:58,954  log in well
+DEBUG  2018-12-28 10:20:58,954  DELETE http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d {"sessionId": "1f468d9d8155c44487f156f8108b962d"}
+DEBUG  2018-12-28 10:20:59,485  http://127.0.0.1:53017 "DELETE /session/1f468d9d8155c44487f156f8108b962d HTTP/1.1" 200 72
+DEBUG  2018-12-28 10:20:59,486  Finished Request
