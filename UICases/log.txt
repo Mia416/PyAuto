@@ -80,3 +80,44 @@ INFO  2018-12-28 10:20:58,954  log in well
 DEBUG  2018-12-28 10:20:58,954  DELETE http://127.0.0.1:53017/session/1f468d9d8155c44487f156f8108b962d {"sessionId": "1f468d9d8155c44487f156f8108b962d"}
 DEBUG  2018-12-28 10:20:59,485  http://127.0.0.1:53017 "DELETE /session/1f468d9d8155c44487f156f8108b962d HTTP/1.1" 200 72
 DEBUG  2018-12-28 10:20:59,486  Finished Request
+DEBUG  2019-01-02 13:35:32,284  POST http://127.0.0.1:58805/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG  2019-01-02 13:35:32,286  Starting new HTTP connection (1): 127.0.0.1:58805
+DEBUG  2019-01-02 13:35:35,467  http://127.0.0.1:58805 "POST /session HTTP/1.1" 200 899
+DEBUG  2019-01-02 13:35:35,468  Finished Request
+DEBUG  2019-01-02 13:35:35,468  POST http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f/url {"url": "https://github.com/login", "sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:42,314  http://127.0.0.1:58805 "POST /session/3b78698a05d16bc0d756acbe2b89cf9f/url HTTP/1.1" 200 72
+DEBUG  2019-01-02 13:35:42,315  Finished Request
+DEBUG  2019-01-02 13:35:42,315  POST http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f/element {"using": "id", "value": "login_field", "sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:42,361  http://127.0.0.1:58805 "POST /session/3b78698a05d16bc0d756acbe2b89cf9f/element HTTP/1.1" 200 102
+DEBUG  2019-01-02 13:35:42,362  Finished Request
+DEBUG  2019-01-02 13:35:42,362  POST http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f/element {"using": "id", "value": "login_field", "sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:42,377  http://127.0.0.1:58805 "POST /session/3b78698a05d16bc0d756acbe2b89cf9f/element HTTP/1.1" 200 102
+DEBUG  2019-01-02 13:35:42,377  Finished Request
+DEBUG  2019-01-02 13:35:42,377  POST http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f/element/0.4958020659964175-1/value {"text": "Mia416", "value": ["M", "i", "a", "4", "1", "6"], "id": "0.4958020659964175-1", "sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:42,463  http://127.0.0.1:58805 "POST /session/3b78698a05d16bc0d756acbe2b89cf9f/element/0.4958020659964175-1/value HTTP/1.1" 200 72
+DEBUG  2019-01-02 13:35:42,463  Finished Request
+DEBUG  2019-01-02 13:35:42,464  POST http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f/element {"using": "id", "value": "password", "sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:42,507  http://127.0.0.1:58805 "POST /session/3b78698a05d16bc0d756acbe2b89cf9f/element HTTP/1.1" 200 102
+DEBUG  2019-01-02 13:35:42,508  Finished Request
+DEBUG  2019-01-02 13:35:42,508  POST http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f/element {"using": "id", "value": "password", "sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:42,523  http://127.0.0.1:58805 "POST /session/3b78698a05d16bc0d756acbe2b89cf9f/element HTTP/1.1" 200 102
+DEBUG  2019-01-02 13:35:42,523  Finished Request
+DEBUG  2019-01-02 13:35:42,524  POST http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f/element/0.4958020659964175-2/value {"text": "820311!xiyu", "value": ["8", "2", "0", "3", "1", "1", "!", "x", "i", "y", "u"], "id": "0.4958020659964175-2", "sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:42,697  http://127.0.0.1:58805 "POST /session/3b78698a05d16bc0d756acbe2b89cf9f/element/0.4958020659964175-2/value HTTP/1.1" 200 72
+DEBUG  2019-01-02 13:35:42,697  Finished Request
+DEBUG  2019-01-02 13:35:42,698  POST http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f/element {"using": "name", "value": "commit", "sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:42,728  http://127.0.0.1:58805 "POST /session/3b78698a05d16bc0d756acbe2b89cf9f/element HTTP/1.1" 200 102
+DEBUG  2019-01-02 13:35:42,729  Finished Request
+DEBUG  2019-01-02 13:35:42,729  POST http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f/element {"using": "name", "value": "commit", "sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:42,741  http://127.0.0.1:58805 "POST /session/3b78698a05d16bc0d756acbe2b89cf9f/element HTTP/1.1" 200 102
+DEBUG  2019-01-02 13:35:42,741  Finished Request
+DEBUG  2019-01-02 13:35:42,742  POST http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f/element/0.4958020659964175-3/click {"id": "0.4958020659964175-3", "sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:44,628  http://127.0.0.1:58805 "POST /session/3b78698a05d16bc0d756acbe2b89cf9f/element/0.4958020659964175-3/click HTTP/1.1" 200 72
+DEBUG  2019-01-02 13:35:44,628  Finished Request
+DEBUG  2019-01-02 13:35:44,628  POST http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f/element {"using": "css selector", "value": "span[title='SAutoTest']", "sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:44,662  http://127.0.0.1:58805 "POST /session/3b78698a05d16bc0d756acbe2b89cf9f/element HTTP/1.1" 200 103
+DEBUG  2019-01-02 13:35:44,663  Finished Request
+INFO  2019-01-02 13:35:44,663  log in well
+DEBUG  2019-01-02 13:35:44,663  DELETE http://127.0.0.1:58805/session/3b78698a05d16bc0d756acbe2b89cf9f {"sessionId": "3b78698a05d16bc0d756acbe2b89cf9f"}
+DEBUG  2019-01-02 13:35:45,481  http://127.0.0.1:58805 "DELETE /session/3b78698a05d16bc0d756acbe2b89cf9f HTTP/1.1" 200 72
+DEBUG  2019-01-02 13:35:45,482  Finished Request

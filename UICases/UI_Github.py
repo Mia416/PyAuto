@@ -40,14 +40,7 @@ class TestStringMethods(unittest.TestCase):
             li.safeEnterText(browser,"id","login_field",init.username)
             li.safeEnterText(browser,"id","password",init.password)
             li.safeClick(browser, "name", "commit")
-            element_result = li.waitForElementToBeVisible(browser, "css", "span[title='SAutoTest']")
-              
-            #elementusername = WebDriverWait(browser, 10).until(expected_conditions.presence_of_element_located((By.ID, "login_field")))
-            #elementusername.send_keys(username)            
-            #elementpass=WebDriverWait(browser, 10).until(expected_conditions.presence_of_element_located((By.ID,"password")))           
-            #elementpass.send_keys(password)           
-            #browser.find_element_by_name("commit").click()     
-            #element_result = WebDriverWait(browser, 10).until(expected_conditions.presence_of_element_located((By.CSS_SELECTOR,"span[title='SAutoTest']")),"log in well")
+            element_result = li.waitForElementToBeVisible(browser, "css", "span[title='SAutoTest']")       
             self.assertIsNotNone(element_result) 
             uilog.info("log in well")          
            
