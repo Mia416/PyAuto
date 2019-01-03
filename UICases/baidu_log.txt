@@ -1,0 +1,568 @@
+DEBUG  2019-01-03 11:15:13,984  POST http://127.0.0.1:51937/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG  2019-01-03 11:15:13,984  Starting new HTTP connection (1): 127.0.0.1:51937
+DEBUG  2019-01-03 11:15:17,878  http://127.0.0.1:51937 "POST /session HTTP/1.1" 200 899
+DEBUG  2019-01-03 11:15:17,879  Finished Request
+DEBUG  2019-01-03 11:15:17,879  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/url {"url": "https://www.baidu.com/", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:21,960  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/url HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:15:21,961  Finished Request
+DEBUG  2019-01-03 11:15:21,961  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element {"using": "id", "value": "kw", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:21,985  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:15:21,986  Finished Request
+DEBUG  2019-01-03 11:15:21,986  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element {"using": "id", "value": "kw", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:21,999  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:15:21,999  Finished Request
+DEBUG  2019-01-03 11:15:22,000  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-1/value {"text": "automation test", "value": ["a", "u", "t", "o", "m", "a", "t", "i", "o", "n", " ", "t", "e", "s", "t"], "id": "0.6197779412754654-1", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:22,414  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-1/value HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:15:22,415  Finished Request
+DEBUG  2019-01-03 11:15:22,415  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:22,417  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:15:22,419  Finished Request
+DEBUG  2019-01-03 11:15:22,419  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element {"using": "id", "value": "su", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:22,447  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:15:22,447  Finished Request
+DEBUG  2019-01-03 11:15:22,447  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element {"using": "id", "value": "su", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:22,459  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:15:22,459  Finished Request
+DEBUG  2019-01-03 11:15:22,459  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-2/click {"id": "0.6197779412754654-2", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:22,639  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-2/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:15:22,640  Finished Request
+DEBUG  2019-01-03 11:15:22,640  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:22,645  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:15:22,645  Finished Request
+DEBUG  2019-01-03 11:15:22,646  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element {"using": "class name", "value": "nums_text", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,275  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:15:24,275  Finished Request
+DEBUG  2019-01-03 11:15:24,276  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element {"using": "class name", "value": "nums_text", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,338  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:15:24,338  Finished Request
+DEBUG  2019-01-03 11:15:24,339  GET http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/innerHTML {"name": "innerHTML", "id": "0.6197779412754654-3", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,364  http://127.0.0.1:51937 "GET /session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:15:24,365  Finished Request
+DEBUG  2019-01-03 11:15:24,368  GET http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/innerHTML {"name": "innerHTML", "id": "0.6197779412754654-3", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,400  http://127.0.0.1:51937 "GET /session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:15:24,401  Finished Request
+DEBUG  2019-01-03 11:15:24,401  GET http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/innerText {"name": "innerText", "id": "0.6197779412754654-3", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,432  http://127.0.0.1:51937 "GET /session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:15:24,432  Finished Request
+DEBUG  2019-01-03 11:15:24,432  GET http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/innerText {"name": "innerText", "id": "0.6197779412754654-3", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,466  http://127.0.0.1:51937 "GET /session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:15:24,467  Finished Request
+DEBUG  2019-01-03 11:15:24,467  GET http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/textContent {"name": "textContent", "id": "0.6197779412754654-3", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,479  http://127.0.0.1:51937 "GET /session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:15:24,480  Finished Request
+DEBUG  2019-01-03 11:15:24,480  GET http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/textContent {"name": "textContent", "id": "0.6197779412754654-3", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,486  http://127.0.0.1:51937 "GET /session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:15:24,487  Finished Request
+DEBUG  2019-01-03 11:15:24,487  GET http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/text {"id": "0.6197779412754654-3", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,532  http://127.0.0.1:51937 "GET /session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:15:24,535  Finished Request
+DEBUG  2019-01-03 11:15:24,535  GET http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/text {"id": "0.6197779412754654-3", "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,564  http://127.0.0.1:51937 "GET /session/3b5f92cbb053feb0bd6b4d096b98bb12/element/0.6197779412754654-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:15:24,564  Finished Request
+DEBUG  2019-01-03 11:15:24,567  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,570  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:15:24,570  Finished Request
+DEBUG  2019-01-03 11:15:24,570  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:24,580  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/execute HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:15:24,581  Finished Request
+DEBUG  2019-01-03 11:15:34,584  POST http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/execute {"script": "window.scrollTo(document.body.scrollHeight,0);", "args": [], "sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:34,603  http://127.0.0.1:51937 "POST /session/3b5f92cbb053feb0bd6b4d096b98bb12/execute HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:15:34,604  Finished Request
+DEBUG  2019-01-03 11:15:44,608  GET http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12/screenshot {"sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:45,005  http://127.0.0.1:51937 "GET /session/3b5f92cbb053feb0bd6b4d096b98bb12/screenshot HTTP/1.1" 200 407146
+DEBUG  2019-01-03 11:15:45,008  Finished Request
+DEBUG  2019-01-03 11:15:45,016  DELETE http://127.0.0.1:51937/session/3b5f92cbb053feb0bd6b4d096b98bb12 {"sessionId": "3b5f92cbb053feb0bd6b4d096b98bb12"}
+DEBUG  2019-01-03 11:15:45,567  http://127.0.0.1:51937 "DELETE /session/3b5f92cbb053feb0bd6b4d096b98bb12 HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:15:45,568  Finished Request
+DEBUG  2019-01-03 11:24:24,400  POST http://127.0.0.1:52294/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG  2019-01-03 11:24:24,401  Starting new HTTP connection (1): 127.0.0.1:52294
+DEBUG  2019-01-03 11:24:26,880  http://127.0.0.1:52294 "POST /session HTTP/1.1" 200 899
+DEBUG  2019-01-03 11:24:26,881  Finished Request
+DEBUG  2019-01-03 11:24:26,882  POST http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/url {"url": "https://www.baidu.com/", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:31,083  http://127.0.0.1:52294 "POST /session/4d87f47f952830ef6eea888dd4fa2b7a/url HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:24:31,084  Finished Request
+DEBUG  2019-01-03 11:24:31,085  POST http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element {"using": "id", "value": "kw", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:31,107  http://127.0.0.1:52294 "POST /session/4d87f47f952830ef6eea888dd4fa2b7a/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:24:31,108  Finished Request
+DEBUG  2019-01-03 11:24:31,108  POST http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element {"using": "id", "value": "kw", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:31,118  http://127.0.0.1:52294 "POST /session/4d87f47f952830ef6eea888dd4fa2b7a/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:24:31,118  Finished Request
+DEBUG  2019-01-03 11:24:31,119  POST http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-1/value {"text": "automation test", "value": ["a", "u", "t", "o", "m", "a", "t", "i", "o", "n", " ", "t", "e", "s", "t"], "id": "0.9570275149785608-1", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:31,510  http://127.0.0.1:52294 "POST /session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-1/value HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:24:31,511  Finished Request
+DEBUG  2019-01-03 11:24:31,511  POST http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:31,515  http://127.0.0.1:52294 "POST /session/4d87f47f952830ef6eea888dd4fa2b7a/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:24:31,515  Finished Request
+DEBUG  2019-01-03 11:24:31,516  POST http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element {"using": "id", "value": "su", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:31,549  http://127.0.0.1:52294 "POST /session/4d87f47f952830ef6eea888dd4fa2b7a/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:24:31,550  Finished Request
+DEBUG  2019-01-03 11:24:31,550  POST http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element {"using": "id", "value": "su", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:31,562  http://127.0.0.1:52294 "POST /session/4d87f47f952830ef6eea888dd4fa2b7a/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:24:31,563  Finished Request
+DEBUG  2019-01-03 11:24:31,563  POST http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-2/click {"id": "0.9570275149785608-2", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:31,690  http://127.0.0.1:52294 "POST /session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-2/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:24:31,691  Finished Request
+DEBUG  2019-01-03 11:24:31,691  POST http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:31,693  http://127.0.0.1:52294 "POST /session/4d87f47f952830ef6eea888dd4fa2b7a/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:24:31,693  Finished Request
+DEBUG  2019-01-03 11:24:31,694  POST http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element {"using": "class name", "value": "nums_text", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:32,741  http://127.0.0.1:52294 "POST /session/4d87f47f952830ef6eea888dd4fa2b7a/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:24:32,742  Finished Request
+DEBUG  2019-01-03 11:24:32,742  POST http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element {"using": "class name", "value": "nums_text", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:32,780  http://127.0.0.1:52294 "POST /session/4d87f47f952830ef6eea888dd4fa2b7a/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:24:32,781  Finished Request
+DEBUG  2019-01-03 11:24:32,781  GET http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/innerHTML {"name": "innerHTML", "id": "0.9570275149785608-3", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:32,812  http://127.0.0.1:52294 "GET /session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:24:32,813  Finished Request
+DEBUG  2019-01-03 11:24:32,814  GET http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/innerHTML {"name": "innerHTML", "id": "0.9570275149785608-3", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:32,819  http://127.0.0.1:52294 "GET /session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:24:32,820  Finished Request
+DEBUG  2019-01-03 11:24:32,820  GET http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/innerText {"name": "innerText", "id": "0.9570275149785608-3", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:32,830  http://127.0.0.1:52294 "GET /session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:24:32,831  Finished Request
+DEBUG  2019-01-03 11:24:32,831  GET http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/innerText {"name": "innerText", "id": "0.9570275149785608-3", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:32,837  http://127.0.0.1:52294 "GET /session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:24:32,837  Finished Request
+DEBUG  2019-01-03 11:24:32,838  GET http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/textContent {"name": "textContent", "id": "0.9570275149785608-3", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:32,845  http://127.0.0.1:52294 "GET /session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:24:32,846  Finished Request
+DEBUG  2019-01-03 11:24:32,846  GET http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/textContent {"name": "textContent", "id": "0.9570275149785608-3", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:32,854  http://127.0.0.1:52294 "GET /session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:24:32,854  Finished Request
+DEBUG  2019-01-03 11:24:32,855  GET http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/text {"id": "0.9570275149785608-3", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:32,899  http://127.0.0.1:52294 "GET /session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:24:32,900  Finished Request
+DEBUG  2019-01-03 11:24:32,900  GET http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/text {"id": "0.9570275149785608-3", "sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:32,922  http://127.0.0.1:52294 "GET /session/4d87f47f952830ef6eea888dd4fa2b7a/element/0.9570275149785608-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:24:32,923  Finished Request
+DEBUG  2019-01-03 11:24:32,924  DELETE http://127.0.0.1:52294/session/4d87f47f952830ef6eea888dd4fa2b7a {"sessionId": "4d87f47f952830ef6eea888dd4fa2b7a"}
+DEBUG  2019-01-03 11:24:33,597  http://127.0.0.1:52294 "DELETE /session/4d87f47f952830ef6eea888dd4fa2b7a HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:24:33,598  Finished Request
+DEBUG  2019-01-03 11:26:13,092  POST http://127.0.0.1:52442/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG  2019-01-03 11:26:13,093  Starting new HTTP connection (1): 127.0.0.1:52442
+DEBUG  2019-01-03 11:26:15,674  http://127.0.0.1:52442 "POST /session HTTP/1.1" 200 899
+DEBUG  2019-01-03 11:26:15,675  Finished Request
+DEBUG  2019-01-03 11:26:15,676  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/url {"url": "https://www.baidu.com/", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:19,578  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/url HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:26:19,578  Finished Request
+DEBUG  2019-01-03 11:26:19,579  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element {"using": "id", "value": "kw", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:19,620  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:26:19,621  Finished Request
+DEBUG  2019-01-03 11:26:19,621  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element {"using": "id", "value": "kw", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:19,637  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:26:19,637  Finished Request
+DEBUG  2019-01-03 11:26:19,638  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-1/value {"text": "automation test", "value": ["a", "u", "t", "o", "m", "a", "t", "i", "o", "n", " ", "t", "e", "s", "t"], "id": "0.3926804117770961-1", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:20,039  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-1/value HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:26:20,040  Finished Request
+DEBUG  2019-01-03 11:26:20,041  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:20,042  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:26:20,043  Finished Request
+DEBUG  2019-01-03 11:26:20,043  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element {"using": "id", "value": "su", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:20,070  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:26:20,070  Finished Request
+DEBUG  2019-01-03 11:26:20,070  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element {"using": "id", "value": "su", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:20,081  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:26:20,081  Finished Request
+DEBUG  2019-01-03 11:26:20,082  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-2/click {"id": "0.3926804117770961-2", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:20,168  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-2/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:26:20,169  Finished Request
+DEBUG  2019-01-03 11:26:20,169  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:20,174  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:26:20,175  Finished Request
+DEBUG  2019-01-03 11:26:20,175  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element {"using": "class name", "value": "nums_text", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,201  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:26:21,202  Finished Request
+DEBUG  2019-01-03 11:26:21,202  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element {"using": "class name", "value": "nums_text", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,256  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:26:21,257  Finished Request
+DEBUG  2019-01-03 11:26:21,257  GET http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/innerHTML {"name": "innerHTML", "id": "0.3926804117770961-3", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,271  http://127.0.0.1:52442 "GET /session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:26:21,272  Finished Request
+DEBUG  2019-01-03 11:26:21,272  GET http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/innerHTML {"name": "innerHTML", "id": "0.3926804117770961-3", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,284  http://127.0.0.1:52442 "GET /session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:26:21,285  Finished Request
+DEBUG  2019-01-03 11:26:21,285  GET http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/innerText {"name": "innerText", "id": "0.3926804117770961-3", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,305  http://127.0.0.1:52442 "GET /session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:26:21,306  Finished Request
+DEBUG  2019-01-03 11:26:21,306  GET http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/innerText {"name": "innerText", "id": "0.3926804117770961-3", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,341  http://127.0.0.1:52442 "GET /session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:26:21,342  Finished Request
+DEBUG  2019-01-03 11:26:21,342  GET http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/textContent {"name": "textContent", "id": "0.3926804117770961-3", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,374  http://127.0.0.1:52442 "GET /session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:26:21,374  Finished Request
+DEBUG  2019-01-03 11:26:21,375  GET http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/textContent {"name": "textContent", "id": "0.3926804117770961-3", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,411  http://127.0.0.1:52442 "GET /session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:26:21,412  Finished Request
+DEBUG  2019-01-03 11:26:21,412  GET http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/text {"id": "0.3926804117770961-3", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,465  http://127.0.0.1:52442 "GET /session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:26:21,465  Finished Request
+DEBUG  2019-01-03 11:26:21,466  GET http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/text {"id": "0.3926804117770961-3", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,486  http://127.0.0.1:52442 "GET /session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:26:21,486  Finished Request
+DEBUG  2019-01-03 11:26:21,487  GET http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/window_handles {"sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,491  http://127.0.0.1:52442 "GET /session/8f36c2d8f2ab036303296e1e4212d4af/window_handles HTTP/1.1" 200 113
+DEBUG  2019-01-03 11:26:21,491  Finished Request
+DEBUG  2019-01-03 11:26:21,492  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,493  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:26:21,493  Finished Request
+DEBUG  2019-01-03 11:26:21,494  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:21,500  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/execute HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:26:21,501  Finished Request
+DEBUG  2019-01-03 11:26:31,501  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/execute {"script": "window.scrollTo(document.body.scrollHeight,0);", "args": [], "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:31,507  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/execute HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:26:31,508  Finished Request
+DEBUG  2019-01-03 11:26:41,508  GET http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/screenshot {"sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:41,949  http://127.0.0.1:52442 "GET /session/8f36c2d8f2ab036303296e1e4212d4af/screenshot HTTP/1.1" 200 407146
+DEBUG  2019-01-03 11:26:41,953  Finished Request
+DEBUG  2019-01-03 11:26:41,958  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element {"using": "xpath", "value": "//*[@id='1']/h3/a", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:41,980  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:26:41,981  Finished Request
+DEBUG  2019-01-03 11:26:41,981  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element {"using": "xpath", "value": "//*[@id='1']/h3/a", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:41,989  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:26:41,989  Finished Request
+DEBUG  2019-01-03 11:26:41,989  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-4/click {"id": "0.3926804117770961-4", "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:42,265  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/element/0.3926804117770961-4/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:26:42,266  Finished Request
+DEBUG  2019-01-03 11:26:42,266  POST http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:42,271  http://127.0.0.1:52442 "POST /session/8f36c2d8f2ab036303296e1e4212d4af/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:26:42,272  Finished Request
+DEBUG  2019-01-03 11:26:42,272  DELETE http://127.0.0.1:52442/session/8f36c2d8f2ab036303296e1e4212d4af {"sessionId": "8f36c2d8f2ab036303296e1e4212d4af"}
+DEBUG  2019-01-03 11:26:42,846  http://127.0.0.1:52442 "DELETE /session/8f36c2d8f2ab036303296e1e4212d4af HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:26:42,847  Finished Request
+DEBUG  2019-01-03 11:27:36,856  POST http://127.0.0.1:52542/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG  2019-01-03 11:27:36,857  Starting new HTTP connection (1): 127.0.0.1:52542
+DEBUG  2019-01-03 11:27:39,297  http://127.0.0.1:52542 "POST /session HTTP/1.1" 200 899
+DEBUG  2019-01-03 11:27:39,298  Finished Request
+DEBUG  2019-01-03 11:27:39,299  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/url {"url": "https://www.baidu.com/", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:42,711  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/url HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:27:42,712  Finished Request
+DEBUG  2019-01-03 11:27:42,712  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element {"using": "id", "value": "kw", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:42,741  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:27:42,741  Finished Request
+DEBUG  2019-01-03 11:27:42,742  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element {"using": "id", "value": "kw", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:42,752  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:27:42,752  Finished Request
+DEBUG  2019-01-03 11:27:42,752  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-1/value {"text": "automation test", "value": ["a", "u", "t", "o", "m", "a", "t", "i", "o", "n", " ", "t", "e", "s", "t"], "id": "0.3526474272968887-1", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:43,162  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-1/value HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:27:43,163  Finished Request
+DEBUG  2019-01-03 11:27:43,163  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:43,166  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:27:43,167  Finished Request
+DEBUG  2019-01-03 11:27:43,167  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element {"using": "id", "value": "su", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:43,188  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:27:43,188  Finished Request
+DEBUG  2019-01-03 11:27:43,188  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element {"using": "id", "value": "su", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:43,199  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:27:43,200  Finished Request
+DEBUG  2019-01-03 11:27:43,200  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-2/click {"id": "0.3526474272968887-2", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:43,326  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-2/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:27:43,327  Finished Request
+DEBUG  2019-01-03 11:27:43,327  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:43,341  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:27:43,342  Finished Request
+DEBUG  2019-01-03 11:27:43,342  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element {"using": "class name", "value": "nums_text", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,272  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:27:44,273  Finished Request
+DEBUG  2019-01-03 11:27:44,273  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element {"using": "class name", "value": "nums_text", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,306  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:27:44,307  Finished Request
+DEBUG  2019-01-03 11:27:44,307  GET http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/innerHTML {"name": "innerHTML", "id": "0.3526474272968887-3", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,334  http://127.0.0.1:52542 "GET /session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:27:44,334  Finished Request
+DEBUG  2019-01-03 11:27:44,335  GET http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/innerHTML {"name": "innerHTML", "id": "0.3526474272968887-3", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,343  http://127.0.0.1:52542 "GET /session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:27:44,344  Finished Request
+DEBUG  2019-01-03 11:27:44,344  GET http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/innerText {"name": "innerText", "id": "0.3526474272968887-3", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,359  http://127.0.0.1:52542 "GET /session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:27:44,360  Finished Request
+DEBUG  2019-01-03 11:27:44,361  GET http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/innerText {"name": "innerText", "id": "0.3526474272968887-3", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,387  http://127.0.0.1:52542 "GET /session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:27:44,387  Finished Request
+DEBUG  2019-01-03 11:27:44,387  GET http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/textContent {"name": "textContent", "id": "0.3526474272968887-3", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,396  http://127.0.0.1:52542 "GET /session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:27:44,396  Finished Request
+DEBUG  2019-01-03 11:27:44,397  GET http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/textContent {"name": "textContent", "id": "0.3526474272968887-3", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,402  http://127.0.0.1:52542 "GET /session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:27:44,403  Finished Request
+DEBUG  2019-01-03 11:27:44,403  GET http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/text {"id": "0.3526474272968887-3", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,458  http://127.0.0.1:52542 "GET /session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:27:44,459  Finished Request
+DEBUG  2019-01-03 11:27:44,459  GET http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/text {"id": "0.3526474272968887-3", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,475  http://127.0.0.1:52542 "GET /session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:27:44,476  Finished Request
+DEBUG  2019-01-03 11:27:44,476  GET http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/window_handles {"sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,479  http://127.0.0.1:52542 "GET /session/bdb3c754352f1d5695b5bb525d1ad696/window_handles HTTP/1.1" 200 113
+DEBUG  2019-01-03 11:27:44,480  Finished Request
+DEBUG  2019-01-03 11:27:44,480  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,481  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:27:44,482  Finished Request
+DEBUG  2019-01-03 11:27:44,482  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:44,490  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/execute HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:27:44,490  Finished Request
+DEBUG  2019-01-03 11:27:54,490  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/execute {"script": "window.scrollTo(document.body.scrollHeight,0);", "args": [], "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:27:54,515  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/execute HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:27:54,516  Finished Request
+DEBUG  2019-01-03 11:28:04,516  GET http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/screenshot {"sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:28:04,906  http://127.0.0.1:52542 "GET /session/bdb3c754352f1d5695b5bb525d1ad696/screenshot HTTP/1.1" 200 407146
+DEBUG  2019-01-03 11:28:04,908  Finished Request
+DEBUG  2019-01-03 11:28:04,913  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element {"using": "xpath", "value": "//*[@id='1']/h3/a", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:28:04,928  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:28:04,929  Finished Request
+DEBUG  2019-01-03 11:28:04,929  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element {"using": "xpath", "value": "//*[@id='1']/h3/a", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:28:04,937  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 11:28:04,937  Finished Request
+DEBUG  2019-01-03 11:28:04,938  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-4/click {"id": "0.3526474272968887-4", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:28:05,177  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/element/0.3526474272968887-4/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:28:05,178  Finished Request
+DEBUG  2019-01-03 11:28:05,178  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:28:05,181  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:28:05,182  Finished Request
+DEBUG  2019-01-03 11:28:05,183  POST http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696/window {"name": "CDwindow-E552AC3A42D7E46F91FB0F1390B95FFF", "sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:28:05,231  http://127.0.0.1:52542 "POST /session/bdb3c754352f1d5695b5bb525d1ad696/window HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:28:05,232  Finished Request
+DEBUG  2019-01-03 11:28:05,232  DELETE http://127.0.0.1:52542/session/bdb3c754352f1d5695b5bb525d1ad696 {"sessionId": "bdb3c754352f1d5695b5bb525d1ad696"}
+DEBUG  2019-01-03 11:28:05,884  http://127.0.0.1:52542 "DELETE /session/bdb3c754352f1d5695b5bb525d1ad696 HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:28:05,885  Finished Request
+DEBUG  2019-01-03 11:29:05,927  POST http://127.0.0.1:52646/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG  2019-01-03 11:29:05,928  Starting new HTTP connection (1): 127.0.0.1:52646
+DEBUG  2019-01-03 11:29:08,403  http://127.0.0.1:52646 "POST /session HTTP/1.1" 200 899
+DEBUG  2019-01-03 11:29:08,404  Finished Request
+DEBUG  2019-01-03 11:29:08,405  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/url {"url": "https://www.baidu.com/", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:11,748  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/url HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:29:11,749  Finished Request
+DEBUG  2019-01-03 11:29:11,749  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element {"using": "id", "value": "kw", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:11,783  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/element HTTP/1.1" 200 101
+DEBUG  2019-01-03 11:29:11,783  Finished Request
+DEBUG  2019-01-03 11:29:11,784  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element {"using": "id", "value": "kw", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:11,793  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/element HTTP/1.1" 200 101
+DEBUG  2019-01-03 11:29:11,793  Finished Request
+DEBUG  2019-01-03 11:29:11,793  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-1/value {"text": "automation test", "value": ["a", "u", "t", "o", "m", "a", "t", "i", "o", "n", " ", "t", "e", "s", "t"], "id": "0.758911299007345-1", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:12,075  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-1/value HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:29:12,076  Finished Request
+DEBUG  2019-01-03 11:29:12,077  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:12,078  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:29:12,078  Finished Request
+DEBUG  2019-01-03 11:29:12,078  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element {"using": "id", "value": "su", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:12,103  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/element HTTP/1.1" 200 101
+DEBUG  2019-01-03 11:29:12,104  Finished Request
+DEBUG  2019-01-03 11:29:12,104  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element {"using": "id", "value": "su", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:12,114  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/element HTTP/1.1" 200 101
+DEBUG  2019-01-03 11:29:12,115  Finished Request
+DEBUG  2019-01-03 11:29:12,115  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-2/click {"id": "0.758911299007345-2", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:12,258  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-2/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:29:12,259  Finished Request
+DEBUG  2019-01-03 11:29:12,259  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:12,261  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:29:12,261  Finished Request
+DEBUG  2019-01-03 11:29:12,261  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element {"using": "class name", "value": "nums_text", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,256  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/element HTTP/1.1" 200 101
+DEBUG  2019-01-03 11:29:13,256  Finished Request
+DEBUG  2019-01-03 11:29:13,257  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element {"using": "class name", "value": "nums_text", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,295  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/element HTTP/1.1" 200 101
+DEBUG  2019-01-03 11:29:13,296  Finished Request
+DEBUG  2019-01-03 11:29:13,296  GET http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/innerHTML {"name": "innerHTML", "id": "0.758911299007345-3", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,324  http://127.0.0.1:52646 "GET /session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:29:13,325  Finished Request
+DEBUG  2019-01-03 11:29:13,325  GET http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/innerHTML {"name": "innerHTML", "id": "0.758911299007345-3", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,330  http://127.0.0.1:52646 "GET /session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:29:13,330  Finished Request
+DEBUG  2019-01-03 11:29:13,330  GET http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/innerText {"name": "innerText", "id": "0.758911299007345-3", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,338  http://127.0.0.1:52646 "GET /session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:29:13,340  Finished Request
+DEBUG  2019-01-03 11:29:13,340  GET http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/innerText {"name": "innerText", "id": "0.758911299007345-3", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,345  http://127.0.0.1:52646 "GET /session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:29:13,346  Finished Request
+DEBUG  2019-01-03 11:29:13,346  GET http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/textContent {"name": "textContent", "id": "0.758911299007345-3", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,354  http://127.0.0.1:52646 "GET /session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:29:13,354  Finished Request
+DEBUG  2019-01-03 11:29:13,355  GET http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/textContent {"name": "textContent", "id": "0.758911299007345-3", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,359  http://127.0.0.1:52646 "GET /session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:29:13,359  Finished Request
+DEBUG  2019-01-03 11:29:13,360  GET http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/text {"id": "0.758911299007345-3", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,403  http://127.0.0.1:52646 "GET /session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:29:13,403  Finished Request
+DEBUG  2019-01-03 11:29:13,403  GET http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/text {"id": "0.758911299007345-3", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,422  http://127.0.0.1:52646 "GET /session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 11:29:13,422  Finished Request
+DEBUG  2019-01-03 11:29:13,423  GET http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/window_handles {"sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,425  http://127.0.0.1:52646 "GET /session/4ca9fc658f70c2f7cbeba205a954e89f/window_handles HTTP/1.1" 200 113
+DEBUG  2019-01-03 11:29:13,426  Finished Request
+DEBUG  2019-01-03 11:29:13,426  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,427  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:29:13,427  Finished Request
+DEBUG  2019-01-03 11:29:13,427  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element {"using": "xpath", "value": "//*[@id='1']/h3/a", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,444  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/element HTTP/1.1" 200 101
+DEBUG  2019-01-03 11:29:13,444  Finished Request
+DEBUG  2019-01-03 11:29:13,444  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element {"using": "xpath", "value": "//*[@id='1']/h3/a", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,452  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/element HTTP/1.1" 200 101
+DEBUG  2019-01-03 11:29:13,453  Finished Request
+DEBUG  2019-01-03 11:29:13,453  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-4/click {"id": "0.758911299007345-4", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,647  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/element/0.758911299007345-4/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:29:13,647  Finished Request
+DEBUG  2019-01-03 11:29:13,648  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,649  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:29:13,650  Finished Request
+DEBUG  2019-01-03 11:29:13,651  POST http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f/window {"name": "CDwindow-54F7E8EEFC75D418BB0C574A17754E36", "sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:13,671  http://127.0.0.1:52646 "POST /session/4ca9fc658f70c2f7cbeba205a954e89f/window HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:29:13,671  Finished Request
+DEBUG  2019-01-03 11:29:13,672  DELETE http://127.0.0.1:52646/session/4ca9fc658f70c2f7cbeba205a954e89f {"sessionId": "4ca9fc658f70c2f7cbeba205a954e89f"}
+DEBUG  2019-01-03 11:29:14,077  http://127.0.0.1:52646 "DELETE /session/4ca9fc658f70c2f7cbeba205a954e89f HTTP/1.1" 200 72
+DEBUG  2019-01-03 11:29:14,078  Finished Request
+DEBUG  2019-01-03 12:01:38,356  POST http://127.0.0.1:56176/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG  2019-01-03 12:01:38,361  Starting new HTTP connection (1): 127.0.0.1:56176
+DEBUG  2019-01-03 12:01:41,204  http://127.0.0.1:56176 "POST /session HTTP/1.1" 200 899
+DEBUG  2019-01-03 12:01:41,205  Finished Request
+DEBUG  2019-01-03 12:01:41,205  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/url {"url": "https://www.baidu.com/", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:46,297  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/url HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:01:46,298  Finished Request
+DEBUG  2019-01-03 12:01:46,298  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element {"using": "id", "value": "kw", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:46,328  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:01:46,328  Finished Request
+DEBUG  2019-01-03 12:01:46,329  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element {"using": "id", "value": "kw", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:46,338  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:01:46,339  Finished Request
+DEBUG  2019-01-03 12:01:46,339  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-1/value {"text": "automation test", "value": ["a", "u", "t", "o", "m", "a", "t", "i", "o", "n", " ", "t", "e", "s", "t"], "id": "0.3156035841622906-1", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:46,599  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-1/value HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:01:46,599  Finished Request
+DEBUG  2019-01-03 12:01:46,599  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:46,600  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:01:46,600  Finished Request
+DEBUG  2019-01-03 12:01:46,601  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element {"using": "id", "value": "su", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:46,617  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:01:46,618  Finished Request
+DEBUG  2019-01-03 12:01:46,618  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element {"using": "id", "value": "su", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:46,628  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:01:46,629  Finished Request
+DEBUG  2019-01-03 12:01:46,629  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-2/click {"id": "0.3156035841622906-2", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:46,711  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-2/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:01:46,711  Finished Request
+DEBUG  2019-01-03 12:01:46,712  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:46,714  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:01:46,714  Finished Request
+DEBUG  2019-01-03 12:01:46,715  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element {"using": "class name", "value": "nums_text", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:48,282  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:01:48,282  Finished Request
+DEBUG  2019-01-03 12:01:48,283  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element {"using": "class name", "value": "nums_text", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:48,310  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:01:48,310  Finished Request
+DEBUG  2019-01-03 12:01:48,311  GET http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/innerHTML {"name": "innerHTML", "id": "0.3156035841622906-3", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:48,343  http://127.0.0.1:56176 "GET /session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:01:48,344  Finished Request
+DEBUG  2019-01-03 12:01:48,346  GET http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/innerHTML {"name": "innerHTML", "id": "0.3156035841622906-3", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:48,354  http://127.0.0.1:56176 "GET /session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:01:48,355  Finished Request
+DEBUG  2019-01-03 12:01:48,355  GET http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/innerText {"name": "innerText", "id": "0.3156035841622906-3", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:48,366  http://127.0.0.1:56176 "GET /session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:01:48,366  Finished Request
+DEBUG  2019-01-03 12:01:48,367  GET http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/innerText {"name": "innerText", "id": "0.3156035841622906-3", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:48,373  http://127.0.0.1:56176 "GET /session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:01:48,373  Finished Request
+DEBUG  2019-01-03 12:01:48,374  GET http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/textContent {"name": "textContent", "id": "0.3156035841622906-3", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:48,387  http://127.0.0.1:56176 "GET /session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:01:48,391  Finished Request
+DEBUG  2019-01-03 12:01:48,392  GET http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/textContent {"name": "textContent", "id": "0.3156035841622906-3", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:48,430  http://127.0.0.1:56176 "GET /session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:01:48,431  Finished Request
+DEBUG  2019-01-03 12:01:48,431  GET http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/text {"id": "0.3156035841622906-3", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:48,472  http://127.0.0.1:56176 "GET /session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:01:48,473  Finished Request
+DEBUG  2019-01-03 12:01:48,473  GET http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/text {"id": "0.3156035841622906-3", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:48,492  http://127.0.0.1:56176 "GET /session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:01:48,493  Finished Request
+DEBUG  2019-01-03 12:01:48,494  GET http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/window_handles {"sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:48,497  http://127.0.0.1:56176 "GET /session/0c5d71d7d0d959a07f3ecf5416a79d10/window_handles HTTP/1.1" 200 113
+DEBUG  2019-01-03 12:01:48,498  Finished Request
+DEBUG  2019-01-03 12:01:58,499  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element {"using": "xpath", "value": "//*[@id='1']/h3/a", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:58,515  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:01:58,515  Finished Request
+DEBUG  2019-01-03 12:01:58,515  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element {"using": "xpath", "value": "//*[@id='1']/h3/a", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:58,525  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:01:58,526  Finished Request
+DEBUG  2019-01-03 12:01:58,526  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-4/click {"id": "0.3156035841622906-4", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:01:58,794  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/element/0.3156035841622906-4/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:01:58,795  Finished Request
+DEBUG  2019-01-03 12:02:08,796  POST http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10/window {"name": "CDwindow-202F39360D7352DE49097ABBF4DC15D3", "sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:02:08,842  http://127.0.0.1:56176 "POST /session/0c5d71d7d0d959a07f3ecf5416a79d10/window HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:02:08,842  Finished Request
+DEBUG  2019-01-03 12:02:08,843  DELETE http://127.0.0.1:56176/session/0c5d71d7d0d959a07f3ecf5416a79d10 {"sessionId": "0c5d71d7d0d959a07f3ecf5416a79d10"}
+DEBUG  2019-01-03 12:02:09,025  http://127.0.0.1:56176 "DELETE /session/0c5d71d7d0d959a07f3ecf5416a79d10 HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:02:09,025  Finished Request
+DEBUG  2019-01-03 12:02:27,149  POST http://127.0.0.1:56322/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG  2019-01-03 12:02:27,151  Starting new HTTP connection (1): 127.0.0.1:56322
+DEBUG  2019-01-03 12:02:29,574  http://127.0.0.1:56322 "POST /session HTTP/1.1" 200 899
+DEBUG  2019-01-03 12:02:29,575  Finished Request
+DEBUG  2019-01-03 12:02:29,575  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/url {"url": "https://www.baidu.com/", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:33,094  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/url HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:02:33,096  Finished Request
+DEBUG  2019-01-03 12:02:33,098  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element {"using": "id", "value": "kw", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:33,126  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:02:33,127  Finished Request
+DEBUG  2019-01-03 12:02:33,127  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element {"using": "id", "value": "kw", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:33,136  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:02:33,136  Finished Request
+DEBUG  2019-01-03 12:02:33,136  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-1/value {"text": "automation test", "value": ["a", "u", "t", "o", "m", "a", "t", "i", "o", "n", " ", "t", "e", "s", "t"], "id": "0.5391025553862863-1", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:33,419  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-1/value HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:02:33,419  Finished Request
+DEBUG  2019-01-03 12:02:33,419  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:33,421  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:02:33,421  Finished Request
+DEBUG  2019-01-03 12:02:33,421  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element {"using": "id", "value": "su", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:33,449  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:02:33,449  Finished Request
+DEBUG  2019-01-03 12:02:33,450  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element {"using": "id", "value": "su", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:33,460  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:02:33,461  Finished Request
+DEBUG  2019-01-03 12:02:33,461  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-2/click {"id": "0.5391025553862863-2", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:33,564  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-2/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:02:33,564  Finished Request
+DEBUG  2019-01-03 12:02:33,565  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:33,567  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/timeouts/implicit_wait HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:02:33,567  Finished Request
+DEBUG  2019-01-03 12:02:33,568  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element {"using": "class name", "value": "nums_text", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:34,414  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:02:34,415  Finished Request
+DEBUG  2019-01-03 12:02:34,415  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element {"using": "class name", "value": "nums_text", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:34,453  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:02:34,454  Finished Request
+DEBUG  2019-01-03 12:02:34,454  GET http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/innerHTML {"name": "innerHTML", "id": "0.5391025553862863-3", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:34,467  http://127.0.0.1:56322 "GET /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:02:34,467  Finished Request
+DEBUG  2019-01-03 12:02:34,468  GET http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/innerHTML {"name": "innerHTML", "id": "0.5391025553862863-3", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:34,474  http://127.0.0.1:56322 "GET /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/innerHTML HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:02:34,475  Finished Request
+DEBUG  2019-01-03 12:02:34,475  GET http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/innerText {"name": "innerText", "id": "0.5391025553862863-3", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:34,482  http://127.0.0.1:56322 "GET /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:02:34,482  Finished Request
+DEBUG  2019-01-03 12:02:34,483  GET http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/innerText {"name": "innerText", "id": "0.5391025553862863-3", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:34,488  http://127.0.0.1:56322 "GET /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/innerText HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:02:34,488  Finished Request
+DEBUG  2019-01-03 12:02:34,488  GET http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/textContent {"name": "textContent", "id": "0.5391025553862863-3", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:34,504  http://127.0.0.1:56322 "GET /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:02:34,504  Finished Request
+DEBUG  2019-01-03 12:02:34,505  GET http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/textContent {"name": "textContent", "id": "0.5391025553862863-3", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:34,515  http://127.0.0.1:56322 "GET /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/attribute/textContent HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:02:34,515  Finished Request
+DEBUG  2019-01-03 12:02:34,515  GET http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/text {"id": "0.5391025553862863-3", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:34,548  http://127.0.0.1:56322 "GET /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:02:34,549  Finished Request
+DEBUG  2019-01-03 12:02:34,549  GET http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/text {"id": "0.5391025553862863-3", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:34,564  http://127.0.0.1:56322 "GET /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-3/text HTTP/1.1" 200 115
+DEBUG  2019-01-03 12:02:34,565  Finished Request
+DEBUG  2019-01-03 12:02:34,565  GET http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/window_handles {"sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:34,568  http://127.0.0.1:56322 "GET /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/window_handles HTTP/1.1" 200 113
+DEBUG  2019-01-03 12:02:34,569  Finished Request
+DEBUG  2019-01-03 12:02:44,569  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element {"using": "xpath", "value": "//*[@id='1']/h3/a", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:44,608  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:02:44,608  Finished Request
+DEBUG  2019-01-03 12:02:44,608  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element {"using": "xpath", "value": "//*[@id='1']/h3/a", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:44,621  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element HTTP/1.1" 200 102
+DEBUG  2019-01-03 12:02:44,621  Finished Request
+DEBUG  2019-01-03 12:02:44,621  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-4/click {"id": "0.5391025553862863-4", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:44,880  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/element/0.5391025553862863-4/click HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:02:44,881  Finished Request
+DEBUG  2019-01-03 12:02:54,881  POST http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80/window {"name": "CDwindow-F10B112271DB91DC9B40476989554269", "sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:02:54,906  http://127.0.0.1:56322 "POST /session/f7ecf7eefaf4c9863feb1c8b00c0fa80/window HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:02:54,906  Finished Request
+DEBUG  2019-01-03 12:03:04,906  DELETE http://127.0.0.1:56322/session/f7ecf7eefaf4c9863feb1c8b00c0fa80 {"sessionId": "f7ecf7eefaf4c9863feb1c8b00c0fa80"}
+DEBUG  2019-01-03 12:03:05,313  http://127.0.0.1:56322 "DELETE /session/f7ecf7eefaf4c9863feb1c8b00c0fa80 HTTP/1.1" 200 72
+DEBUG  2019-01-03 12:03:05,314  Finished Request

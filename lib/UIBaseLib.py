@@ -70,6 +70,13 @@ class uilib:
     def hardsleep(self,t):
         time.sleep(t)
         
+    def switchwindow(self,driver,wname):
+        driver.switch_to.window(wname)
+    
+    def getwindowhandle(self,driver):
+        return driver.window_handles[0]
+
+        
     def Scroll_down(self,driver):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         self.hardsleep(10)
