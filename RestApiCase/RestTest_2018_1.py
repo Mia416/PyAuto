@@ -5,8 +5,11 @@ Created on Dec 27, 2018
 '''
 import base64
 import lib.Initlib as init
+import lib.JsonLib as jsoninit
 
-init.sendmail()
+
+jsoninit.load_xml_node()
+#init.sendmail()
 
 # test file 
 t1 = base64.b64encode(b'idcs-75eca8dde95841d3a6225af31282104c')
