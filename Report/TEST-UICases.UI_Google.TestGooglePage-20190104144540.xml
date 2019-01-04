@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="UICases.UI_Google.TestGooglePage-20190104144540" tests="1" time="38.527">
+	<testcase classname="UICases.UI_Google.TestGooglePage" name="test_login" time="38.527"/>
+	<system-out>
+<![CDATA[找到约 1,430,000,000 条结果 （用时 0.52 秒） 
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
